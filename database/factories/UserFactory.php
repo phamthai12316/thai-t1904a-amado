@@ -25,3 +25,30 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+$factory->define(\App\Category::class, function (Faker $faker){
+    return[
+        'category_name' => $faker->unique()->name    // domainName: nếu mà để domain name thì kho ít nên bị trùng
+    ];
+});
+$factory->define(\App\Brand::class, function (Faker $faker){
+    return[
+        'brand_name' => $faker->unique()->name    // domainName: nếu mà để domain name thì kho ít nên bị trùng
+    ];
+});
+$factory->define(\App\Product::class, function (Faker $faker){
+    return[
+        'product_name' => $faker->unique()->name,    // domainName: nếu mà để domain name thì kho ít nên bị trùng
+        'product_desc' => $faker->title,
+        'thumbnail' => 'img/product-img/product'.random_int(1,14).'.jpg',
+        'gallery'   =>
+            'img/product-img/product'.random_int(1,14).'.jpg'
+            .",".'img/product-img/product'.random_int(1,14).'.jpg'
+            .",".'img/product-img/product'.random_int(1,14).'.jpg'
+            .",".'img/product-img/product'.random_int(1,14).'.jpg'
+        ,
+        'price' => random_int(1,1000),
+        'quantity'=>  random_int(1,50),
+        'category_id'=> random_int(1,50), // vi vua chay random 100 category
+        'brand_id'=> random_int(1,50) // vi vua chay random 100 category
+    ];
+});

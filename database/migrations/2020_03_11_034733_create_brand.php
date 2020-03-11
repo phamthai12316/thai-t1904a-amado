@@ -13,8 +13,9 @@ class CreateBrand extends Migration
      */
     public function up()
     {
-        Schema::create('brand', function (Blueprint $table) {
+        Schema::create('Brand', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('brand_name',191)->unique();// unique là index: k quá 191 kí tự -> lỗi
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateBrand extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('brand');
+        Schema::dropIfExists('Brand');
     }
 }

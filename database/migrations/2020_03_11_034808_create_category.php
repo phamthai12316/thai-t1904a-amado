@@ -13,8 +13,9 @@ class CreateCategory extends Migration
      */
     public function up()
     {
-        Schema::create('category', function (Blueprint $table) {
+        Schema::create('Category', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('category_name',191)->unique();// unique là index: k quá 191 kí tự -> lỗi
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateCategory extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('category');
+        Schema::dropIfExists('Category');
     }
 }
