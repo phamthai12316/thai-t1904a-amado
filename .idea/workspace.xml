@@ -4,7 +4,6 @@
     <list default="true" id="1ee675f1-b0d4-4474-b3d0-eb854c27d2db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,8 @@
       <workItem from="1583897036264" duration="2187000" />
       <workItem from="1583899781921" duration="2931000" />
       <workItem from="1583905140206" duration="2448000" />
-      <workItem from="1583918571894" duration="3420000" />
+      <workItem from="1583918571894" duration="3669000" />
+      <workItem from="1583923224528" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1583906512700</created>
@@ -189,6 +189,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aa" />
@@ -207,9 +210,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="70" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1583906493678" />
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1583918571843">
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1583923224274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583918571843" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583923224274" />
   </component>
 </project>
