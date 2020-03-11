@@ -172,21 +172,42 @@
       <workItem from="1583859848780" duration="959000" />
       <workItem from="1583893376805" duration="3631000" />
       <workItem from="1583897036264" duration="2187000" />
-      <workItem from="1583899781921" duration="2355000" />
+      <workItem from="1583899781921" duration="2931000" />
+      <workItem from="1583905140206" duration="1828000" />
     </task>
+    <task id="LOCAL-00001" summary="aa">
+      <created>1583906512700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583906512701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="132" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583738729022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="132" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1583738729022" />
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1583899781822">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1583906511354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583899781822" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583906511354" />
+    <state x="147" y="70" key="DiffContextDialog" timestamp="1583906493678">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="70" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1583906493678" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1583905142033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583905142033" />
   </component>
 </project>
