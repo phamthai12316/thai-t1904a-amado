@@ -77,7 +77,7 @@ return [
             'port' => '5432',
             'database' => 'dbug4nv24jcvul',
             'username' => 'ynrebiebngytha',
-            'password' =>'fade56a60a79d828a1caaa4745f9a53b8de1f3582b6eb69a146f86b0fed448e4',
+                'password' =>'fade56a60a79d828a1caaa4745f9a53b8de1f3582b6eb69a146f86b0fed448e4',
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
