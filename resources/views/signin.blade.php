@@ -23,7 +23,6 @@
                     <figure><img src="img/signin-image.jpg" alt="sing up image"></figure>
                     <a href="{{url('/signup')}}" class="signup-image-link">Create an account</a>
                     <a href="{{url('/')}}" class="signup-image-link">Back home</a>
-
                 </div>
                 <div class="signin-form">
                     <h2 class="form-title">Sign In</h2>
