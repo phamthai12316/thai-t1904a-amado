@@ -104,7 +104,7 @@
             <div class="amado-pro-catagory clearfix">
             @foreach ($product as $p)
                 <!-- Single Catagory -->
-                <div class="single-products-catagory clearfix col-lg-6">
+                <div class="single-products-catagory clearfix col-lg-3 col-md-6">
                     <a href="{{url('/shop')}}">
                         <img src="{{ $p->thumbnail }}" alt="">
                         <!-- Hover Content -->
