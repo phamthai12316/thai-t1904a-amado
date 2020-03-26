@@ -24,5 +24,10 @@ class WebController extends Controller
     public function checkout(){
         return view('checkout');
     }
-
+    public function signin(){
+        return view('signin');
+    }
+    public function signup(){
+        return view('signup');
+    }
 }
