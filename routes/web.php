@@ -18,3 +18,7 @@ Route::get('/cart','WebController@cart');
 Route::get('/checkout','WebController@checkout');
 Route::get('/signin','WebController@signin');
 Route::get('/signup','WebController@signup');
+Route::get('/admin','WebController@admin');
+Route::get('/admin-products','WebController@adminProduct');
+Route::get('/admin-categories','WebController@adminCategory');
+Route::get('/admin-brands','WebController@adminBrand');

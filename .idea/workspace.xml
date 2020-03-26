@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1ee675f1-b0d4-4474-b3d0-eb854c27d2db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/signin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/signin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,16 +144,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\database\migrations" />
-      <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\database\seeds" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\public" />
       <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\public\img" />
+      <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\resources" />
       <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\resources\views" />
       <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\public\css" />
-      <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\public" />
+      <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\database\migrations" />
+      <recent name="D:\xampp\xampp\htdocs\thai-t1904a-amado\database\seeds" />
     </key>
   </component>
   <component name="RunManager">
@@ -205,7 +209,8 @@
       <workItem from="1584948842940" duration="5460000" />
       <workItem from="1585038451844" duration="603000" />
       <workItem from="1585106985144" duration="1333000" />
-      <workItem from="1585234489566" duration="6582000" />
+      <workItem from="1585234489566" duration="8471000" />
+      <workItem from="1585247174069" duration="6076000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1583906512700</created>
@@ -232,6 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585235864344" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585250613815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585250613815" />
     <state x="132" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583738729022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -244,11 +253,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="70" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1583906493678" />
-    <state x="1141" y="252" key="FileChooserDialogImpl" timestamp="1585235876697">
+    <state x="1141" y="252" key="FileChooserDialogImpl" timestamp="1585250989328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="913" y="200" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584079580249" />
-    <state x="1141" y="252" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585235876697" />
+    <state x="1141" y="252" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585250989328" />
     <state x="795" y="444" key="NewPhpFileDialog" timestamp="1584949670297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,10 +266,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="198" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584604312549" />
-    <state x="581" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1585106986060">
+    <state x="581" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1585247179686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584352120535" />
-    <state x="581" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585106986060" />
+    <state x="581" y="299" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585247179686" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585249523231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585249523231" />
   </component>
 </project>

@@ -30,4 +30,16 @@ class WebController extends Controller
     public function signup(){
         return view('signup');
     }
+    public function admin(){
+        return view('admin');
+    }
+    public function adminProduct(){
+        return view('admin-products');
+    }
+    public function adminCategory(){
+        return view('admin-categories');
+    }
+    public function adminBrand(){
+        return view('admin-brands');
+    }
 }
