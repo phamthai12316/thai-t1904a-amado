@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Product;
 use Illuminate\Http\Request;
 
 class WebController extends Controller
 {
     public function home(){
         return view('index');
+        $product =Product::take(10) -> get();
     }
     public function shop(){
         return view('shop');
