@@ -48,7 +48,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="/"><img src="img/core-img/logo.png" alt=""></a>
+                <a href="{{url('/')}}"><img src="img/core-img/logo.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -64,18 +64,18 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-                <a href="/"><img src="img/core-img/logo.png" alt=""></a>
+                <a href="{{url('/')}}"><img src="img/core-img/logo.png" alt=""></a>
             </div>
             <!-- Amado Nav -->
             <nav class="amado-nav">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/shop">Shop</a></li>
-                    <li class="active"><a href="/product-details">Product</a></li>
-                    <li><a href="/cart">Cart</a></li>
-                    <li><a href="/checkout">Checkout</a>
-                    <li><a href="/signin">Sign In</a></li>
-                    <li><a href="/signup">Sign Up</a></li>
+                    <li ><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="{{url('/shop')}}">Shop</a></li>
+                    <li class="active"><a href="{{url('/product-details')}}">Product</a></li>
+                    <li><a href="{{url('/cart')}}">Cart</a></li>
+                    <li><a href="{{url('/checkout')}}">Checkout</a></li>
+                    <li><a href="{{url('/signin')}}">Sign In</a></li>
+                    <li><a href="{{url('/signup')}}">Sign Up</a></li>
                 </ul>
             </nav>
             <!-- Button Group -->
@@ -85,7 +85,7 @@
             </div>
             <!-- Cart Menu -->
             <div class="cart-fav-search mb-100">
-                <a href="/cart" class="cart-nav"><img src="img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
+                <a href="{{url('/cart')}}" class="cart-nav"><img src="img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
                 <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
                 <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>
             </div>
@@ -161,7 +161,7 @@
                             <div class="product-meta-data">
                                 <div class="line"></div>
                                 <p class="product-price">$180</p>
-                                <a href="/product-details">
+                                <a href="{{url('/product-details')}}">
                                     <h6>White Modern Chair</h6>
                                 </a>
                                 <!-- Ratings & Review -->
@@ -241,7 +241,7 @@
                     <div class="single_widget_area">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="/"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="{{url('/')}}"><img src="img/core-img/logo2.png" alt=""></a>
                         </div>
                         <!-- Copywrite Text -->
                         <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -259,19 +259,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <div class="collapse navbar-collapse" id="footerNavContent">
                                     <ul class="navbar-nav ml-auto">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="/">Home</a>
+                                            <a class="nav-link" href="{{url('/')}}">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/shop">Shop</a>
+                                            <a class="nav-link" href="{{url('/shop')}}">Shop</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/product-details">Product</a>
+                                            <a class="nav-link" href="{{url('/product-details')}}">Product</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/cart">Cart</a>
+                                            <a class="nav-link" href="{{url('/cart')}}">Cart</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/checkout">Checkout</a>
+                                            <a class="nav-link" href="{{url('/checkout')}}">Checkout</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{url('/signin')}}">Sign In</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{url('/signup')}}">Sign Up</a>
                                         </li>
                                     </ul>
                                 </div>
