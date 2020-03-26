@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class WebController extends Controller
 {
     public function home(){
-        $product =Product::take(5) -> get();
+        $product =Product::take(9) -> get();
         return view('index',['product'=>$product]);
     }
     public function shop(){
