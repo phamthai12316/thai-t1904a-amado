@@ -4,6 +4,8 @@
     <list default="true" id="1ee675f1-b0d4-4474-b3d0-eb854c27d2db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +131,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Amado" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../T1904A_Laravel_2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -207,7 +209,8 @@
       <workItem from="1585038451844" duration="603000" />
       <workItem from="1585106985144" duration="1333000" />
       <workItem from="1585234489566" duration="8471000" />
-      <workItem from="1585247174069" duration="8122000" />
+      <workItem from="1585247174069" duration="8195000" />
+      <workItem from="1585278364999" duration="4068000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1583906512700</created>
@@ -250,11 +253,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="70" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1583906493678" />
-    <state x="1141" y="252" key="FileChooserDialogImpl" timestamp="1585254734746">
+    <state x="1141" y="252" key="FileChooserDialogImpl" timestamp="1585286020209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="913" y="200" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584079580249" />
-    <state x="1141" y="252" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585254734746" />
+    <state x="1141" y="252" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585286020209" />
     <state x="795" y="444" key="NewPhpFileDialog" timestamp="1584949670297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

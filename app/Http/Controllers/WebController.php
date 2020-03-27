@@ -12,11 +12,13 @@ class WebController extends Controller
         return view('index',['product'=>$product]);
     }
     public function shop(){
-        return view('shop');
+        $product =Product::take(9) -> get();
+        return view('shop',['product'=>$product]);
     }
 
-    public function productDetail(){
-        return view('product-details');
+    public function productDetail($id){
+        $product = Product::find($id);// tra ve 1 object Product theo id
+        return view('product-details',['product'=>$product]);
     }
 
     public function cart(){
