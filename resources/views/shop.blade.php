@@ -251,7 +251,7 @@
                                 <div class="product-meta-data">
                                     <div class="line"></div>
                                     <p class="product-price">{{$p -> price}}</p>
-                                    <a href="{{url("/product-details")}}">
+                                    <a href="{{url("/product-details/{$p -> id}")}}">
                                         <h6>{{$p -> product_name}}</h6>
                                     </a>
                                 </div>

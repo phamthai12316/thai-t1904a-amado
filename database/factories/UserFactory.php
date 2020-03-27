@@ -52,3 +52,12 @@ $factory->define(\App\Product::class, function (Faker $faker){
         'brand_id'=> random_int(1,50) // vi vua chay random 100 category
     ];
 });
+$factory->define(\App\Student::class, function (Faker $faker){
+    return[
+        'student_name' => $faker->unique()->name,    // domainName: nếu mà để domain name thì kho ít nên bị trùng
+        'student_age' => random_int(1,50),
+        'student_address' => $faker -> paragraph,
+        'student_telephone' => $faker -> phoneNumber
+    ];
+});
+
