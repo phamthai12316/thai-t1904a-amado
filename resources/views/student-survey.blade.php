@@ -24,8 +24,6 @@
 <body>
 <div class="limiter">
     <div class="container-table100">
-        <div class="wrap-table100">
-            <div class="table100 ver1">
                 {{--					<div class="wrap-table100-nextcols js-pscroll">--}}
                 <form class="form-inline" action="/action_page.php">
                     <label for="name">Name</label>
@@ -34,12 +32,11 @@
                     <input type="email" class="form-control" placeholder="Enter email" id="email">
                     <label for="email">Telephone</label>
                     <input type="number" class="form-control" placeholder="Enter telephone" id="telephone">
+                    <label for="feedback">Feedback</label>
                     <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter feedback"></textarea>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
                 {{--					</div>--}}
-            </div>
-        </div>
     </div>
 </div>
 
