@@ -28,15 +28,13 @@
             <div class="table100 ver1">
                 {{--					<div class="wrap-table100-nextcols js-pscroll">--}}
                 <form class="form-inline" action="/action_page.php">
-                    <label for="email">Email address:</label>
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter name" id="name">
+                    <label for="email">Email</label>
                     <input type="email" class="form-control" placeholder="Enter email" id="email">
-                    <label for="pwd">Password:</label>
-                    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox"> Remember me
-                        </label>
-                    </div>
+                    <label for="email">Telephone</label>
+                    <input type="number" class="form-control" placeholder="Enter telephone" id="telephone">
+                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter feedback"></textarea>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
                 {{--					</div>--}}
