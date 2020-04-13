@@ -113,7 +113,7 @@
               <div class="col-lg-12 mb-4">
                 <div class="card">
                   <div class="card-header">
-                    <h6 class="text-uppercase mb-0">Product Table</h6>
+                    <h6 class="text-uppercase mb-0">Brand Table</h6>
                   </div>
                   <div class="card-body">
                     <table class="table card-text">

@@ -16,6 +16,8 @@ Route::get('/shop','WebController@shop');
 Route::get('/product-details/{id}','WebController@productDetail');
 Route::get('/shopping/{id}','WebController@shopping');
 Route::get('/student','WebController@student');
+Route::get('/student-survey','WebController@survey');
+
 
 //
 Route::get('/cart','WebController@cart');

@@ -34,6 +34,11 @@ class WebController extends Controller
         ]);
         return redirect() -> to("product-details/{$product -> id}");
     }
+
+    public function survey(){
+        return view('student-survey');
+    }
+
     public function cart(){
         return view('cart');
     }
