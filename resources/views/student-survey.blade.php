@@ -25,15 +25,17 @@
 <div class="limiter">
     <div class="container-table100">
                 {{--					<div class="wrap-table100-nextcols js-pscroll">--}}
-                <form class="form-inline" action="/action_page.php">
+
+                <form class="form-inline" action="/" style="border: 1px solid white;border-radius: 10px;padding: 70px;">
+                    <h1>Feedback From</h1>
                     <label for="name">Name</label>
-                    <input type="text" class="form-control" placeholder="Enter name" id="name">
+                    <input type="text" class="form-control" placeholder="Enter name" id="name" style="border: 10px solid white !important; margin: 15px;">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    <input type="email" class="form-control" placeholder="Enter email" id="email" style="border: 10px solid white !important; margin: 15px;">
                     <label for="email">Telephone</label>
-                    <input type="number" class="form-control" placeholder="Enter telephone" id="telephone">
+                    <input type="number" class="form-control" placeholder="Enter telephone" id="telephone" style="border: 10px solid white !important; margin: 15px;">
                     <label for="feedback">Feedback</label>
-                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter feedback"></textarea>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter feedback" style="border: 10px solid white !important; margin: 15px;"></textarea>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
                 {{--					</div>--}}
