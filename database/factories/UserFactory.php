@@ -61,3 +61,11 @@ $factory->define(\App\Student::class, function (Faker $faker){
     ];
 });
 
+$factory->define(\App\StudentSurvey::class, function (Faker $faker){
+    return[
+        'student_name' => $faker->unique()->name,    // domainName: nếu mà để domain name thì kho ít nên bị trùng
+        'student_email' => $faker->unique()->email,
+        'student_telephone' => $faker -> phoneNumber,
+        'student_feedback' => $faker -> paragraph
+    ];
+});
