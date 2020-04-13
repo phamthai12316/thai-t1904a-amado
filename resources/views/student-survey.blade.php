@@ -26,7 +26,7 @@
     <div class="container-table100">
                 {{--					<div class="wrap-table100-nextcols js-pscroll">--}}
 
-                <form class="form-inline" action="/" style="border: 1px solid white;border-radius: 10px;padding: 70px;">
+                <form class="form-inline" action="/" style="border: 5px solid white;border-radius: 10px;padding: 70px;">
                     <h1 style="color: white; margin-bottom: 20px;">Feedback From</h1>
                     <label for="name">Name</label>
                     <input type="text" class="form-control" placeholder="Enter name" id="name" style="border: 10px solid white !important; margin: 15px;">
