@@ -36,7 +36,7 @@
                     <input type="number" class="form-control" placeholder="Enter telephone" id="telephone" style="border: 10px solid white !important; margin: 15px;">
                     <label for="feedback">Feedback</label>
                     <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter feedback" style="border: 10px solid white !important; margin: 15px;"></textarea>
-                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="border: 5px solid white !important;  background: white;">Submit</button>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="border: 5px solid white !important;  background: white;">Submit</button>
                 </form>
                 {{--					</div>--}}
     </div>
